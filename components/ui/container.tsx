@@ -6,6 +6,8 @@ export const Container = ({
 }>) => {
 	return(
   <div className=" min-h-screen m-auto">
+
+		
     {children}
   </div>
 
