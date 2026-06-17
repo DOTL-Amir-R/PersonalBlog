@@ -17,7 +17,7 @@ export const CategoriesSwiper = ({products}:{products : CategoryItem[]}) => {
         slidesPerView='auto'
         spaceBetween={12}
       >
-        {/* {products.map((item) => (
+        {products.map((item) => (
           <SwiperSlide className="!w-auto overflow-hidden"  key={item.id}>
             <div className="icon-desc-container">
               <Image
@@ -33,7 +33,7 @@ export const CategoriesSwiper = ({products}:{products : CategoryItem[]}) => {
             </div>
           </SwiperSlide>
 
-        ))} */}
+        ))}
       </Swiper>
     </div>
   );
