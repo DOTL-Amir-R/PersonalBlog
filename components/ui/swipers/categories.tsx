@@ -15,7 +15,7 @@ export const CategoriesSwiper = ({products}:{products : CategoryItem[]}) => {
     <div className="py-3">
       <Swiper
         slidesPerView='auto'
-        spaceBetween={12}
+        spaceBetween={10}
       >
         {products.map((item) => (
           <SwiperSlide className="!w-auto overflow-hidden"  key={item.id}>
